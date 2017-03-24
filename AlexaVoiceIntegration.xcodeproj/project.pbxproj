@@ -1,0 +1,364 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6C13C4C01CFF030800BA64D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C13C4BF1CFF030800BA64D4 /* AppDelegate.swift */; };
+		6C13C4C21CFF030800BA64D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C13C4C11CFF030800BA64D4 /* ViewController.swift */; };
+		6C13C4C51CFF030800BA64D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C13C4C31CFF030800BA64D4 /* Main.storyboard */; };
+		6C13C4C71CFF030800BA64D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C13C4C61CFF030800BA64D4 /* Assets.xcassets */; };
+		6C13C4CA1CFF030800BA64D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C13C4C81CFF030800BA64D4 /* LaunchScreen.storyboard */; };
+		6C13C4D31CFF039000BA64D4 /* LoginWithAmazon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C13C4D11CFF038800BA64D4 /* LoginWithAmazon.framework */; };
+		6C13C4D41CFF039000BA64D4 /* LoginWithAmazon.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6C13C4D11CFF038800BA64D4 /* LoginWithAmazon.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6C13C4D81CFF747200BA64D4 /* NSMutableURLRequest+FormEncoded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C13C4D71CFF747200BA64D4 /* NSMutableURLRequest+FormEncoded.swift */; };
+		6C13C4DA1D00690F00BA64D4 /* AIAuthenticationEventHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C13C4D91D00690F00BA64D4 /* AIAuthenticationEventHandler.swift */; };
+		6C13C4DD1D00738300BA64D4 /* AVSUploader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C13C4DB1D00738300BA64D4 /* AVSUploader.swift */; };
+		6C13C4DE1D00738300BA64D4 /* SimplePCMRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C13C4DC1D00738300BA64D4 /* SimplePCMRecorder.swift */; };
+		6C13C4E01D00820500BA64D4 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C13C4DF1D00820500BA64D4 /* AVKit.framework */; };
+		D6BD645D1E84B5C6003D86DD /* lci-building.png in Resources */ = {isa = PBXBuildFile; fileRef = D6BD645B1E84B5C6003D86DD /* lci-building.png */; };
+		D6BD645E1E84B5C6003D86DD /* lcilogo.png in Resources */ = {isa = PBXBuildFile; fileRef = D6BD645C1E84B5C6003D86DD /* lcilogo.png */; };
+		D6BD64601E84B95E003D86DD /* mtroad.png in Resources */ = {isa = PBXBuildFile; fileRef = D6BD645F1E84B95E003D86DD /* mtroad.png */; };
+		D6BD64621E84B9E0003D86DD /* customersvc.png in Resources */ = {isa = PBXBuildFile; fileRef = D6BD64611E84B9E0003D86DD /* customersvc.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6C13C4D51CFF039000BA64D4 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				6C13C4D41CFF039000BA64D4 /* LoginWithAmazon.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6C13C4BC1CFF030700BA64D4 /* AlexaVoiceIntegration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlexaVoiceIntegration.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C13C4BF1CFF030800BA64D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6C13C4C11CFF030800BA64D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6C13C4C41CFF030800BA64D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6C13C4C61CFF030800BA64D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6C13C4C91CFF030800BA64D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6C13C4CB1CFF030800BA64D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C13C4D11CFF038800BA64D4 /* LoginWithAmazon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LoginWithAmazon.framework; path = AlexaVoiceIntegration/LoginWithAmazon/LoginWithAmazon.framework; sourceTree = "<group>"; };
+		6C13C4D61CFF041800BA64D4 /* AlexaVoiceIntegration-ObjC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "AlexaVoiceIntegration-ObjC.h"; path = "AlexaVoiceIntegration/AlexaVoiceIntegration-ObjC.h"; sourceTree = "<group>"; };
+		6C13C4D71CFF747200BA64D4 /* NSMutableURLRequest+FormEncoded.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSMutableURLRequest+FormEncoded.swift"; sourceTree = "<group>"; };
+		6C13C4D91D00690F00BA64D4 /* AIAuthenticationEventHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AIAuthenticationEventHandler.swift; sourceTree = "<group>"; };
+		6C13C4DB1D00738300BA64D4 /* AVSUploader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AVSUploader.swift; path = AlexaVoiceIntegration/AVSUploader.swift; sourceTree = "<group>"; };
+		6C13C4DC1D00738300BA64D4 /* SimplePCMRecorder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SimplePCMRecorder.swift; path = AlexaVoiceIntegration/SimplePCMRecorder.swift; sourceTree = "<group>"; };
+		6C13C4DF1D00820500BA64D4 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		D6BD645B1E84B5C6003D86DD /* lci-building.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "lci-building.png"; path = "../../../Downloads/lci-building.png"; sourceTree = "<group>"; };
+		D6BD645C1E84B5C6003D86DD /* lcilogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = lcilogo.png; path = ../../../Downloads/lcilogo.png; sourceTree = "<group>"; };
+		D6BD645F1E84B95E003D86DD /* mtroad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mtroad.png; path = ../../../Downloads/mtroad.png; sourceTree = "<group>"; };
+		D6BD64611E84B9E0003D86DD /* customersvc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = customersvc.png; path = ../../../Downloads/customersvc.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6C13C4B91CFF030700BA64D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C13C4E01D00820500BA64D4 /* AVKit.framework in Frameworks */,
+				6C13C4D31CFF039000BA64D4 /* LoginWithAmazon.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6C13C4B31CFF030700BA64D4 = {
+			isa = PBXGroup;
+			children = (
+				6C13C4DF1D00820500BA64D4 /* AVKit.framework */,
+				6C13C4DB1D00738300BA64D4 /* AVSUploader.swift */,
+				6C13C4DC1D00738300BA64D4 /* SimplePCMRecorder.swift */,
+				6C13C4D91D00690F00BA64D4 /* AIAuthenticationEventHandler.swift */,
+				6C13C4D11CFF038800BA64D4 /* LoginWithAmazon.framework */,
+				6C13C4BE1CFF030800BA64D4 /* AlexaVoiceIntegration */,
+				6C13C4BD1CFF030700BA64D4 /* Products */,
+				6C13C4D61CFF041800BA64D4 /* AlexaVoiceIntegration-ObjC.h */,
+			);
+			sourceTree = "<group>";
+		};
+		6C13C4BD1CFF030700BA64D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6C13C4BC1CFF030700BA64D4 /* AlexaVoiceIntegration.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6C13C4BE1CFF030800BA64D4 /* AlexaVoiceIntegration */ = {
+			isa = PBXGroup;
+			children = (
+				6C13C4BF1CFF030800BA64D4 /* AppDelegate.swift */,
+				6C13C4C11CFF030800BA64D4 /* ViewController.swift */,
+				6C13C4C31CFF030800BA64D4 /* Main.storyboard */,
+				6C13C4C61CFF030800BA64D4 /* Assets.xcassets */,
+				D6BD64611E84B9E0003D86DD /* customersvc.png */,
+				D6BD645F1E84B95E003D86DD /* mtroad.png */,
+				D6BD645B1E84B5C6003D86DD /* lci-building.png */,
+				D6BD645C1E84B5C6003D86DD /* lcilogo.png */,
+				6C13C4C81CFF030800BA64D4 /* LaunchScreen.storyboard */,
+				6C13C4CB1CFF030800BA64D4 /* Info.plist */,
+				6C13C4D71CFF747200BA64D4 /* NSMutableURLRequest+FormEncoded.swift */,
+			);
+			path = AlexaVoiceIntegration;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6C13C4BB1CFF030700BA64D4 /* AlexaVoiceIntegration */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C13C4CE1CFF030800BA64D4 /* Build configuration list for PBXNativeTarget "AlexaVoiceIntegration" */;
+			buildPhases = (
+				6C13C4B81CFF030700BA64D4 /* Sources */,
+				6C13C4B91CFF030700BA64D4 /* Frameworks */,
+				6C13C4BA1CFF030700BA64D4 /* Resources */,
+				6C13C4D51CFF039000BA64D4 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AlexaVoiceIntegration;
+			productName = AlexaVoiceIntegration;
+			productReference = 6C13C4BC1CFF030700BA64D4 /* AlexaVoiceIntegration.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6C13C4B41CFF030700BA64D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Batgar, Inc.";
+				TargetAttributes = {
+					6C13C4BB1CFF030700BA64D4 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 6C13C4B71CFF030700BA64D4 /* Build configuration list for PBXProject "AlexaVoiceIntegration" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6C13C4B31CFF030700BA64D4;
+			productRefGroup = 6C13C4BD1CFF030700BA64D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6C13C4BB1CFF030700BA64D4 /* AlexaVoiceIntegration */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6C13C4BA1CFF030700BA64D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C13C4CA1CFF030800BA64D4 /* LaunchScreen.storyboard in Resources */,
+				D6BD64621E84B9E0003D86DD /* customersvc.png in Resources */,
+				D6BD645E1E84B5C6003D86DD /* lcilogo.png in Resources */,
+				6C13C4C71CFF030800BA64D4 /* Assets.xcassets in Resources */,
+				D6BD645D1E84B5C6003D86DD /* lci-building.png in Resources */,
+				D6BD64601E84B95E003D86DD /* mtroad.png in Resources */,
+				6C13C4C51CFF030800BA64D4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6C13C4B81CFF030700BA64D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C13C4D81CFF747200BA64D4 /* NSMutableURLRequest+FormEncoded.swift in Sources */,
+				6C13C4C21CFF030800BA64D4 /* ViewController.swift in Sources */,
+				6C13C4DE1D00738300BA64D4 /* SimplePCMRecorder.swift in Sources */,
+				6C13C4C01CFF030800BA64D4 /* AppDelegate.swift in Sources */,
+				6C13C4DD1D00738300BA64D4 /* AVSUploader.swift in Sources */,
+				6C13C4DA1D00690F00BA64D4 /* AIAuthenticationEventHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6C13C4C31CFF030800BA64D4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C13C4C41CFF030800BA64D4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6C13C4C81CFF030800BA64D4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C13C4C91CFF030800BA64D4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6C13C4CC1CFF030800BA64D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6C13C4CD1CFF030800BA64D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6C13C4CF1CFF030800BA64D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AlexaVoiceIntegration/LoginWithAmazon",
+				);
+				INFOPLIST_FILE = AlexaVoiceIntegration/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.batgar.AlexaVoiceIntegration;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AlexaVoiceIntegration/AlexaVoiceIntegration-ObjC.h";
+			};
+			name = Debug;
+		};
+		6C13C4D01CFF030800BA64D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AlexaVoiceIntegration/LoginWithAmazon",
+				);
+				INFOPLIST_FILE = AlexaVoiceIntegration/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.batgar.AlexaVoiceIntegration;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AlexaVoiceIntegration/AlexaVoiceIntegration-ObjC.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6C13C4B71CFF030700BA64D4 /* Build configuration list for PBXProject "AlexaVoiceIntegration" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C13C4CC1CFF030800BA64D4 /* Debug */,
+				6C13C4CD1CFF030800BA64D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C13C4CE1CFF030800BA64D4 /* Build configuration list for PBXNativeTarget "AlexaVoiceIntegration" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C13C4CF1CFF030800BA64D4 /* Debug */,
+				6C13C4D01CFF030800BA64D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6C13C4B41CFF030700BA64D4 /* Project object */;
+}
